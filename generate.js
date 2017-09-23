@@ -12,6 +12,7 @@ for (let cat in categories) {
     
     const symbols = [];
     for (let char of chars) {
+        // The base16 numbers will be converted to base10 for storing in JSON.
         const charCode = parseInt(char.value, 16);
         symbols.push(charCode);
     }
@@ -19,7 +20,7 @@ for (let cat in categories) {
     const filename = `category/${ cat }.js`;
     fs.writeFileSync(path.join(__dirname, filename), formatFile(symbols));
     console.log(`${ filename } saved.`);
-    indexFile += `  ${ cat }: require('./${ filename }'),\n`;
+    indexFile += `  ${ cat }: require('./${ cat }.js'),\n`;
 }
 
 
