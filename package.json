@@ -5,7 +5,7 @@
     "unicode": "github:tech4him1/node-unicodetable#add-index"
   },
   "name": "unicode-tables",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A list of Unicode characters, grouped by category.",
   "main": "index.js",
   "scripts": {
