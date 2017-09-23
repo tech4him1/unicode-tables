@@ -1,5 +1,17 @@
 {
   "devDependencies": {
     "unicode": "github:tech4him1/node-unicodetable#add-index"
+  },
+  "name": "unicode-tables",
+  "version": "0.0.1",
+  "description": "A list of Unicode characters, grouped by category.",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "author": "Caleb (tech4him/tech4him1)",
+  "license": "MIT",
+  "devDependencies": {
+    "unicode": "github:tech4him1/node-unicodetable#add-index"
   }
 }
