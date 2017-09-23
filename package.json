@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "unicode": "github:tech4him1/node-unicodetable#add-index"
+  }
+}
