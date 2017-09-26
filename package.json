@@ -2,7 +2,7 @@
   "devDependencies": {
     "faucet": "0.0.1",
     "tape": "^4.8.0",
-    "unicode": "github:tech4him1/node-unicodetable#add-index"
+    "unicode": "10.0.0"
   },
   "name": "unicode-tables",
   "version": "0.1.0",
