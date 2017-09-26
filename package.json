@@ -5,9 +5,10 @@
     "unicode": "10.0.0"
   },
   "name": "unicode-tables",
-  "version": "0.1.0",
+  "version": "10.0.0",
   "description": "A list of Unicode characters, grouped by category.",
   "main": "index.js",
+  "repository": "https://github.com/tech4him1/unicode-tables.git",
   "scripts": {
     "generate": "node generate.js",
     "test": "node test.js | faucet"
